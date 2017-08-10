@@ -1,0 +1,79 @@
+/*
+   VARIABLES
+   Add your variables to the :root selector.
+   Then reference them in your other css modules like so
+
+   :root {
+      --spacing-small: 32px;
+   }
+
+   .someClass {
+     padding: var(--spacing-small)
+   }
+
+*/
+
+:root {
+
+  /* Colors */
+  --black: #000000;
+  --black1: #2D2D2D;
+  --white: #FFFFFF;
+  --white1: #F8F8F8;
+  --white2: #F7F6F7;
+  --white3: #EBEAFA;
+  --blue0: #3857E7;
+  --blue1: #444A5E;
+  --blue2: #2E3240;
+  --red: #FF0000;
+  --grey0: #F2F5FA;
+  --grey1: #D3D6DE;
+  --grey2: #91959E;
+  --grey3: #626A7A;
+  --grey4: #373E4D;
+  --grey5: #1C2230;
+
+
+
+  /* Text Colors */
+  --text-color: var(--grey4);
+
+  /* Link Colors */
+  --link-color: #3857e7;
+  --link-color-hover: #304CCA;
+  --link-color-active: #2c45b7;
+
+
+  /* Spacing */
+  --space-none: 0;
+  --space-xs:   0.25rem;
+  --space-s:    0.5rem;
+  --space-m:    1rem;
+  --space-l:    2rem;
+  --space-xl:   4rem;
+  --space-xxl:  8rem;
+  --space-xxxl: 16rem;
+
+
+  /* Typography */
+  --sans-font-family: avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif ;
+  --serif-font-family:  Athelas, Georgia, Palatino, Garamond, Cambria, "Times New Roman", Times, serif;
+  --monospace-font-family: Roboto Mono, Source Code Pro, SFMono, menlo, inconsolata, consolas, 'fira mono','noto mono', 'droid sans mono', 'dejavu sans mono', 'liberation mono', 'ubuntu mono', monaco, 'courier new', monospace;
+
+  --base-font-family: var(--sans-font-family);
+  --base-font-size: 1rem;
+  --base-line-height: 1.5;
+
+  --s-h6: 0.875rem;
+  --s-h5: 1rem;
+  --s-h4: 1.5rem;
+  --s-h3: 2rem;
+  --s-h2: 2.5rem;
+  --s-h1: 5rem;
+
+
+  /* Borders */
+  --border-width-default: 2px;
+  --border-radius-default: 2px;
+
+}

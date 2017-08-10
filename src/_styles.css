@@ -1,0 +1,150 @@
+/* ==========================================================================
+   SITE STYLES
+
+   - Mobile first
+   - Medium and Large
+   - Medium
+   - Large
+   ========================================================================== */
+
+
+   /* CSS shit I don't know where else to put LOL! */
+  .nav {
+    list-style: none;
+    text-align: right;
+    padding: 1em;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    padding: 1em;
+  }
+
+
+  h1 {
+    line-height: 1.4em;
+  }
+
+
+  .parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .floating {
+    position: relative;
+    top: 87px;
+    left: 195px;
+  }
+
+
+/* Mobile-first classes here (No media query needed, these styles are global)
+   ========================================================================== */
+
+   /*Text Background Colors*/
+  .highlight {
+    display: inline;
+    background: #37E6C8;
+    color: white;
+    padding: 0.25em;
+  }
+
+
+  /*Backgrounds*/
+   .bg-cover{
+     background-size:cover;
+   }
+   .bg-contain{
+     background-size:contain;
+   }
+   .bg-center{
+     background-position:center;
+   }
+   .bg-repeat{
+     background-repeat:repeat;
+   }
+   .bg-repeat-x{
+     background-repeat:repeat-x;
+   }
+   .bg-repeat-y{
+     background-repeat:repeat-y;
+   }
+   .bg-no-repeat{
+     background-repeat:no-repeat;
+   }
+
+
+
+   /*Colors*/
+  .black{color:var(--black);}
+  .red{color:var(--red);}
+  .white{color:var(--white);}
+  .white1{color:var(--white1);}
+  .white2{color:var(--white2);}
+  .white3{color:var(--white3);}
+  .blue1{color:var(--blue1);}
+  .blue2{color:var(--blue2);}
+  .grey0{color:var(--grey0);}
+  .grey1{color:var(--grey1);}
+  .grey2{color:var(--grey2);}
+  .grey3{color:var(--grey3);}
+  .grey4{color:var(--grey4);}
+  .grey5{color:var(--grey5);}
+
+
+  /*Background Colors*/
+  .bg-black{ background-color:var(--black);}
+  .bg-red{ background-color:var(--red);}
+  .bg-blue0{ background-color:var(--blue0);}
+  .bg-blue2{ background-color:var(--blue2);}
+  .bg-white{ background-color:var(--white);}
+  .bg-grey1{ background-color:var(--grey1);}
+  .bg-grey5{ background-color:var(--grey5);}
+
+  /*Borders*/
+  .border       {
+    border:var(--border-width-default) solid;
+  }
+  .border-top   {
+    border-top:var(--border-width-default) solid;
+  }
+  .border-bottom{
+    border-bottom:var(--border-width-default) solid;
+  }
+  .border-left  {
+    border-left:var(--border-width-default) solid;
+  }
+  .border-right {
+    border-right:var(--border-width-default) solid;
+  }
+  .border-radius{
+    border-radius:var(--border-radius-default);
+  }
+
+  .shadow{
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+  }
+
+/* Medium and Up - Targets everything larger than mobile
+   ========================================================================== */
+
+@media (--breakpoint-medium-and-up) {
+
+}
+
+
+/* Medium - only targets 1st breakpoint. Styles
+   ========================================================================== */
+
+@media (--breakpoint-medium) {
+
+}
+
+
+/* Large - only targets 2nd breakpoint.
+   ========================================================================== */
+@media (--breakpoint-large) {
+
+}

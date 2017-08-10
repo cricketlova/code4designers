@@ -1,0 +1,65 @@
+/**
+ * Vertical rhthym resets / defaults
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+    margin-bottom:var(--space-m);
+}
+
+body {
+    font-family: var(--base-font-family);
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    color: var(--text-color);
+    font-weight: normal;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1, .h1 { font-size: var(--s-h1); line-height:1;}
+h2, .h2 { font-size: var(--s-h2); line-height:3rem;}
+h3, .h3 { font-size: var(--s-h3); line-height:2rem;}
+h4, .h4 { font-size: var(--s-h4); line-height:1.5;}
+h5, .h5 { font-size: var(--s-h5); line-height:1.5rem; }
+h6, .h6 { font-size: var(--s-h6); line-height:1.5rem; }
+
+.vw-05{ font-size:5vw;}
+.vw-10{ font-size:10vw;}
+
+/*
+ * Utilities
+ */
+.bold{ font-weight:bold; }
+.italic{font-style:italic;}
+.caps{
+  text-transform: uppercase;
+  letter-spacing: .1em; }
+.uppercase{ text-transform:uppercase; }
+.underline { text-decoration: underline }
+
+/*Alignment*/
+.text-left   { text-align: left }
+.text-center { text-align: center }
+.text-right  { text-align: right }
+.text-justify{ text-align: justify }
+
+/* Controlling Line Length */
+.measure{
+  max-width:30em;
+}
+
+/* Tracking / Kerning between letters*/
+.ls-1{
+  letter-spacing:.1em;
+}
+.ls-2{
+  letter-spacing:.2em;
+}
+.kern1{
+  letter-spacing:-.1em;
+}
+.kern2{
+  letter-spacing:-.2em;
+}
